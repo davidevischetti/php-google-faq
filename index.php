@@ -76,7 +76,17 @@ $faq_google_arr = [
 </head>
 <body>
     <header>
-
+        <div>
+            <img src="https://www.deuxexmachina.it/wp-content/uploads/2017/03/Google-logo.png" alt="logo">
+            <h2>Privacy e termini</h2>
+        </div>
+        <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li>Domande Frequenti</li>
+        </ul>
         
     </header>
     <main>

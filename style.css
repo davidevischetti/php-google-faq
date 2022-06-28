@@ -8,13 +8,55 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 100px;
     width: 100%;
-    background-color: red;
     position: fixed;
+    background-color: #fff;
     top: 0;
     left: 0;
     z-index: 999;
+    border-bottom: 1px solid #bbb;
+}
+
+header div {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+header img {
+    height: 100%;
+    margin-top: 5px;
+}
+
+header h2 {
+    margin-top: 0px;
+    margin-left: -20px;
+    font-weight: 600;
+    color: #777;
+}
+
+header ul {
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+header ul li {
+    height: 100%;
+    margin: 0 20px;
+    font-weight: 600;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+header ul li:hover {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    cursor: pointer;
 }
 
 main {
@@ -59,13 +101,4 @@ ol ol{
 
 ol li {
     margin-top: 15px;
-}
-
-
-
-footer {
-    height: 50px;
-    width: 100%;
-    background-color: blue;
-    margin-top: 40px;
 }
